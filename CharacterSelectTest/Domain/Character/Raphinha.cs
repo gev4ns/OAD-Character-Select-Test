@@ -15,11 +15,13 @@ public sealed class Raphinha : Entity.Character
         Strength = 88;
         Intelligence = 85;
         Agility = 90;
+        Dribbling = 89;
+        Defending = 60;
     }
 
     public int Attack()
     {
-        return Strength * 2;
+        return Strength * 3;
     }
 
     public string SpecialAbility()

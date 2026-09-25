@@ -23,6 +23,8 @@ public class LamineYamalTest
         Assert.AreEqual(70, lamine.Strength);
         Assert.AreEqual(77, lamine.Intelligence);
         Assert.AreEqual(92, lamine.Agility);
+        Assert.AreEqual(93, lamine.Dribbling);
+        Assert.AreEqual(50, lamine.Defending);
     }
 
     [TestMethod]
@@ -30,7 +32,7 @@ public class LamineYamalTest
     {
         var lamine = new LamineYamal("Lamine Yamal");
 
-        Assert.AreEqual(184, lamine.Attack());
+        Assert.AreEqual(276, lamine.Attack());
     }
 
     [TestMethod]

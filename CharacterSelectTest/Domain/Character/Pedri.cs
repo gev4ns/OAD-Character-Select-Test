@@ -15,11 +15,13 @@ public sealed class Pedri : Entity.Character
         Strength = 85;
         Intelligence = 96;
         Agility = 80;
+        Dribbling = 85;
+        Defending = 70;
     }
 
     public int Attack()
     {
-        return Intelligence * 2;
+        return Intelligence * 3;
     }
 
     public string SpecialAbility()

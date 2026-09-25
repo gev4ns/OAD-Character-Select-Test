@@ -23,6 +23,8 @@ public class PedriTest
         Assert.AreEqual(85, pedri.Strength);
         Assert.AreEqual(96, pedri.Intelligence);
         Assert.AreEqual(80, pedri.Agility);
+        Assert.AreEqual(85, pedri.Dribbling);
+        Assert.AreEqual(70, pedri.Defending);
     }
 
     [TestMethod]
@@ -30,7 +32,7 @@ public class PedriTest
     {
         var pedri = new Pedri("Pedri");
 
-        Assert.AreEqual(192, pedri.Attack());
+        Assert.AreEqual(288, pedri.Attack());
     }
 
     [TestMethod]

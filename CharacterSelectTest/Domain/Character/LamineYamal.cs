@@ -15,11 +15,13 @@ public sealed class LamineYamal : Entity.Character
         Strength = 70;
         Intelligence = 77;
         Agility = 92;
+        Dribbling = 93;
+        Defending = 50;
     }
 
     public int Attack()
     {
-        return Agility * 2;
+        return Agility * 3;
     }
 
     public string SpecialAbility()

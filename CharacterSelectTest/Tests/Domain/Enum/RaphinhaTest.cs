@@ -23,6 +23,8 @@ public class RaphinhaTest
         Assert.AreEqual(88, raphinha.Strength);
         Assert.AreEqual(85, raphinha.Intelligence);
         Assert.AreEqual(90, raphinha.Agility);
+        Assert.AreEqual(89, raphinha.Dribbling);
+        Assert.AreEqual(60, raphinha.Defending);
     }
 
     [TestMethod]
@@ -30,7 +32,7 @@ public class RaphinhaTest
     {
         var raphinha = new Raphinha("Raphinha");
 
-        Assert.AreEqual(176, raphinha.Attack());
+        Assert.AreEqual(264, raphinha.Attack());
     }
 
     [TestMethod]
